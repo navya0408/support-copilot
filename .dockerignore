@@ -1,0 +1,14 @@
+@"
+.git
+venv
+frontend
+data
+ml
+docs
+**/.env
+**/.env.local
+backend/chroma_db
+backend/feedback.jsonl
+**/__pycache__
+**/*.pyc
+"@ | Set-Content .dockerignore
