@@ -1,0 +1,296 @@
+{
+  "summary": {
+    "n_in_scope": 18,
+    "n_out_of_scope": 4,
+    "max_distance": 0.6,
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "in_scope_answered_rate": 1.0,
+    "out_of_scope_refusal_rate": 1.0,
+    "mean_distance_in_scope": 0.341,
+    "mean_distance_out_of_scope": 0.939,
+    "max_in_scope_distance": 0.482,
+    "min_out_of_scope_distance": 0.909
+  },
+  "rows": [
+    {
+      "question": "There is an account on my credit report that is not mine. How do I get it removed?",
+      "expected": [
+        "credit_report_dispute",
+        "identity_theft_steps"
+      ],
+      "retrieved": [
+        "identity_theft_steps",
+        "identity_theft_steps",
+        "credit_report_dispute"
+      ],
+      "best_distance": 0.4789,
+      "result": "hit@1"
+    },
+    {
+      "question": "How do I freeze my credit so nobody can open new accounts?",
+      "expected": [
+        "fraud_alert_and_credit_freeze"
+      ],
+      "retrieved": [
+        "fraud_alert_and_credit_freeze",
+        "frozen_or_closed_account",
+        "frozen_or_closed_account"
+      ],
+      "best_distance": 0.4643,
+      "result": "hit@1"
+    },
+    {
+      "question": "Someone opened a loan in my name. What should I do?",
+      "expected": [
+        "identity_theft_steps"
+      ],
+      "retrieved": [
+        "identity_theft_steps",
+        "unauthorized_hard_inquiry",
+        "auto_loan_repossession"
+      ],
+      "best_distance": 0.4757,
+      "result": "hit@1"
+    },
+    {
+      "question": "A lender pulled my credit and I never applied for anything",
+      "expected": [
+        "unauthorized_hard_inquiry"
+      ],
+      "retrieved": [
+        "unauthorized_hard_inquiry",
+        "unauthorized_hard_inquiry",
+        "fraud_alert_and_credit_freeze"
+      ],
+      "best_distance": 0.3047,
+      "result": "hit@1"
+    },
+    {
+      "question": "Can I get my credit report for free?",
+      "expected": [
+        "free_credit_reports"
+      ],
+      "retrieved": [
+        "free_credit_reports",
+        "free_credit_reports",
+        "fraud_alert_and_credit_freeze"
+      ],
+      "best_distance": 0.2308,
+      "result": "hit@1"
+    },
+    {
+      "question": "How long does a collection account stay on my credit report?",
+      "expected": [
+        "negative_items_duration"
+      ],
+      "retrieved": [
+        "negative_items_duration",
+        "debt_validation",
+        "negative_items_duration"
+      ],
+      "best_distance": 0.3402,
+      "result": "hit@1"
+    },
+    {
+      "question": "A debt collector called about a debt I do not recognize",
+      "expected": [
+        "debt_validation"
+      ],
+      "retrieved": [
+        "debt_validation",
+        "debt_validation",
+        "debt_collector_conduct"
+      ],
+      "best_distance": 0.2463,
+      "result": "hit@1"
+    },
+    {
+      "question": "A collector keeps calling me at 10 pm and at my workplace",
+      "expected": [
+        "debt_collector_conduct"
+      ],
+      "retrieved": [
+        "debt_collector_conduct",
+        "debt_collector_conduct",
+        "debt_validation"
+      ],
+      "best_distance": 0.3234,
+      "result": "hit@1"
+    },
+    {
+      "question": "There is a charge on my credit card that I did not make",
+      "expected": [
+        "unauthorized_card_charge"
+      ],
+      "retrieved": [
+        "unauthorized_card_charge",
+        "unauthorized_card_charge",
+        "card_billing_error_dispute"
+      ],
+      "best_distance": 0.2243,
+      "result": "hit@1"
+    },
+    {
+      "question": "I was charged twice for the same purchase on my credit card",
+      "expected": [
+        "card_billing_error_dispute"
+      ],
+      "retrieved": [
+        "card_billing_error_dispute",
+        "unauthorized_card_charge",
+        "unauthorized_card_charge"
+      ],
+      "best_distance": 0.3727,
+      "result": "hit@1"
+    },
+    {
+      "question": "Money was taken from my checking account without my permission",
+      "expected": [
+        "unauthorized_bank_transfer"
+      ],
+      "retrieved": [
+        "unauthorized_bank_transfer",
+        "money_transfer_app_problems",
+        "frozen_or_closed_account"
+      ],
+      "best_distance": 0.4824,
+      "result": "hit@1"
+    },
+    {
+      "question": "The bank charged me an overdraft fee that seems unfair",
+      "expected": [
+        "overdraft_and_fees"
+      ],
+      "retrieved": [
+        "overdraft_and_fees",
+        "overdraft_and_fees",
+        "unauthorized_card_charge"
+      ],
+      "best_distance": 0.1989,
+      "result": "hit@1"
+    },
+    {
+      "question": "I sent money through a payment app and the other person never got it",
+      "expected": [
+        "money_transfer_app_problems"
+      ],
+      "retrieved": [
+        "money_transfer_app_problems",
+        "money_transfer_app_problems",
+        "unauthorized_bank_transfer"
+      ],
+      "best_distance": 0.3328,
+      "result": "hit@1"
+    },
+    {
+      "question": "My mortgage servicer applied my payment wrongly and I am worried about foreclosure",
+      "expected": [
+        "mortgage_servicing_issues"
+      ],
+      "retrieved": [
+        "mortgage_servicing_issues",
+        "mortgage_servicing_issues",
+        "student_loan_servicing"
+      ],
+      "best_distance": 0.321,
+      "result": "hit@1"
+    },
+    {
+      "question": "My car was repossessed and I want it back",
+      "expected": [
+        "auto_loan_repossession"
+      ],
+      "retrieved": [
+        "auto_loan_repossession",
+        "auto_loan_repossession",
+        "complaint_escalation_cfpb"
+      ],
+      "best_distance": 0.4151,
+      "result": "hit@1"
+    },
+    {
+      "question": "My student loan servicer misapplied my payments",
+      "expected": [
+        "student_loan_servicing"
+      ],
+      "retrieved": [
+        "student_loan_servicing",
+        "student_loan_servicing",
+        "mortgage_servicing_issues"
+      ],
+      "best_distance": 0.2605,
+      "result": "hit@1"
+    },
+    {
+      "question": "My bank froze my account and will not tell me why",
+      "expected": [
+        "frozen_or_closed_account"
+      ],
+      "retrieved": [
+        "frozen_or_closed_account",
+        "frozen_or_closed_account",
+        "fraud_alert_and_credit_freeze"
+      ],
+      "best_distance": 0.2842,
+      "result": "hit@1"
+    },
+    {
+      "question": "The company ignored my complaint. Where can I escalate it?",
+      "expected": [
+        "complaint_escalation_cfpb"
+      ],
+      "retrieved": [
+        "complaint_escalation_cfpb",
+        "complaint_escalation_cfpb",
+        "credit_report_dispute"
+      ],
+      "best_distance": 0.3785,
+      "result": "hit@1"
+    },
+    {
+      "question": "What is the weather like in Hyderabad today?",
+      "expected": null,
+      "retrieved": [
+        "debt_collector_conduct",
+        "auto_loan_repossession",
+        "mortgage_servicing_issues"
+      ],
+      "best_distance": 0.9732,
+      "result": "REFUSED "
+    },
+    {
+      "question": "Recommend a good pizza place near me",
+      "expected": null,
+      "retrieved": [
+        "debt_collector_conduct",
+        "mortgage_servicing_issues",
+        "card_billing_error_dispute"
+      ],
+      "best_distance": 0.9366,
+      "result": "REFUSED "
+    },
+    {
+      "question": "Who won the cricket match yesterday?",
+      "expected": null,
+      "retrieved": [
+        "mortgage_servicing_issues",
+        "mortgage_servicing_issues",
+        "student_loan_servicing"
+      ],
+      "best_distance": 0.9093,
+      "result": "REFUSED "
+    },
+    {
+      "question": "Write a Python function that sorts a list",
+      "expected": null,
+      "retrieved": [
+        "debt_collector_conduct",
+        "negative_items_duration",
+        "debt_collector_conduct"
+      ],
+      "best_distance": 0.9366,
+      "result": "REFUSED "
+    }
+  ]
+}

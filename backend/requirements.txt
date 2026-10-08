@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic>=2
+python-dotenv
+numpy
+joblib
+# IMPORTANT: after training, run `pip show scikit-learn` and pin the SAME version here,
+# e.g. scikit-learn==1.7.2 (a model saved with one version may not load in another).
+scikit-learn==1.9.1
+chromadb
+google-genai

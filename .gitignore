@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env
+backend/chroma_db/
+backend/feedback.jsonl
+data/*.csv
+ml/artifacts/
+.DS_Store
+.env.local

@@ -1,0 +1,14 @@
+{
+  "majority_class_val": {
+    "accuracy": 0.6025,
+    "macro_f1": 0.1074
+  },
+  "tfidf_logreg_val": {
+    "accuracy": 0.8504,
+    "macro_f1": 0.7603
+  },
+  "tfidf_logreg_test": {
+    "accuracy": 0.8642,
+    "macro_f1": 0.7999
+  }
+}

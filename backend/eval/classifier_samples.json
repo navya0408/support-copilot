@@ -1,0 +1,23 @@
+[
+  {"text": "Equifax is showing a late payment on my report from two years ago that I never missed. I disputed it twice and they keep saying it was verified.", "label": "CREDIT_REPORTING"},
+  {"text": "someone pulled my credit without permission, theres 3 inquiries i dont recognize", "label": "CREDIT_REPORTING"},
+  {"text": "My credit report has an address I have never lived at and a phone number that is not mine. Please fix this.", "label": "CREDIT_REPORTING"},
+  {"text": "A company called me 6 times today about a medical bill from 2019. They will not tell me who the original creditor is.", "label": "DEBT_COLLECTION"},
+  {"text": "I got a letter from a law firm saying I owe $2,300 on a credit card I closed years ago. I want proof that this is my debt.", "label": "DEBT_COLLECTION"},
+  {"text": "collector keeps texting my mom about my debt", "label": "DEBT_COLLECTION"},
+  {"text": "My checking account was closed without any notice and they are holding $1,800 of my money.", "label": "BANK_ACCOUNT"},
+  {"text": "bank charged me 3 overdraft fees in one day for small purchases, this is unfair", "label": "BANK_ACCOUNT"},
+  {"text": "I deposited a check on Monday and the funds are still not available after 8 days.", "label": "BANK_ACCOUNT"},
+  {"text": "I was charged twice for the same purchase on my Visa and the issuer will not reverse it.", "label": "CREDIT_CARD"},
+  {"text": "My card company raised my interest rate to 29% without telling me.", "label": "CREDIT_CARD"},
+  {"text": "I returned the item to the store but the refund never appeared on my credit card statement.", "label": "CREDIT_CARD"},
+  {"text": "My car loan company repossessed my car even though I was only 2 days late.", "label": "LOANS"},
+  {"text": "The payday lender took money out of my account twice this month.", "label": "LOANS"},
+  {"text": "My student loan servicer applied my payments to the wrong loan and my balance keeps going up.", "label": "LOANS"},
+  {"text": "My mortgage servicer lost my paperwork for the loan modification and now they are threatening foreclosure.", "label": "MORTGAGE"},
+  {"text": "My escrow payment went up by 400 dollars a month and no one can explain why.", "label": "MORTGAGE"},
+  {"text": "I sent my house payment on time but they say I am behind and charged late fees.", "label": "MORTGAGE"},
+  {"text": "I sent 500 dollars on Cash App to the wrong person and support will not respond.", "label": "MONEY_TRANSFER_PREPAID"},
+  {"text": "My PayPal account was limited and they are holding my funds for 180 days.", "label": "MONEY_TRANSFER_PREPAID"},
+  {"text": "my prepaid debit card balance disappeared overnight", "label": "MONEY_TRANSFER_PREPAID"}
+]

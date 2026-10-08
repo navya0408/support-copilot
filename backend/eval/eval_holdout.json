@@ -1,0 +1,16 @@
+[
+  {"question": "There is a late payment on my report even though I paid on time", "expected": ["credit_report_dispute"]},
+  {"question": "I think a stranger is using my social security number", "expected": ["identity_theft_steps"]},
+  {"question": "Do I have to pay a collection agency if they never sent me anything in writing?", "expected": ["debt_validation"]},
+  {"question": "Someone used my debit card at a store in another city", "expected": ["unauthorized_bank_transfer"]},
+  {"question": "How can I make a collector stop contacting me?", "expected": ["debt_validation", "debt_collector_conduct"]},
+  {"question": "How many years will a late payment hurt my credit?", "expected": ["negative_items_duration"]},
+  {"question": "A merchant never delivered what I paid for with my credit card", "expected": ["card_billing_error_dispute"]},
+  {"question": "The bank closed my account and is holding my remaining balance", "expected": ["frozen_or_closed_account"]},
+  {"question": "The company that handles my home loan keeps losing my paperwork", "expected": ["mortgage_servicing_issues"]},
+  {"question": "A scammer tricked me into sending money through an app", "expected": ["money_transfer_app_problems"]},
+  {"question": "What is the best credit card for travel rewards?", "expected": null},
+  {"question": "How do I apply for a mortgage and what interest rate will I get?", "expected": null},
+  {"question": "Can you help me file my income tax return?", "expected": null},
+  {"question": "What is the current interest rate on savings accounts?", "expected": null}
+]

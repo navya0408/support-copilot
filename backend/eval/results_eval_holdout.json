@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "n_in_scope": 10,
+    "n_out_of_scope": 4,
+    "max_distance": 0.6,
+    "hit_at_1": 0.9,
+    "hit_at_3": 1.0,
+    "in_scope_answered_rate": 1.0,
+    "out_of_scope_refusal_rate": 1.0,
+    "mean_distance_in_scope": 0.427,
+    "mean_distance_out_of_scope": 0.747,
+    "max_in_scope_distance": 0.573,
+    "min_out_of_scope_distance": 0.693
+  },
+  "rows": [
+    {
+      "question": "There is a late payment on my report even though I paid on time",
+      "expected": [
+        "credit_report_dispute"
+      ],
+      "retrieved": [
+        "credit_report_dispute",
+        "card_billing_error_dispute",
+        "credit_report_dispute"
+      ],
+      "best_distance": 0.469,
+      "result": "hit@1"
+    },
+    {
+      "question": "I think a stranger is using my social security number",
+      "expected": [
+        "identity_theft_steps"
+      ],
+      "retrieved": [
+        "identity_theft_steps",
+        "identity_theft_steps",
+        "identity_theft_steps"
+      ],
+      "best_distance": 0.4616,
+      "result": "hit@1"
+    },
+    {
+      "question": "Do I have to pay a collection agency if they never sent me anything in writing?",
+      "expected": [
+        "debt_validation"
+      ],
+      "retrieved": [
+        "debt_validation",
+        "debt_validation",
+        "debt_collector_conduct"
+      ],
+      "best_distance": 0.4581,
+      "result": "hit@1"
+    },
+    {
+      "question": "Someone used my debit card at a store in another city",
+      "expected": [
+        "unauthorized_bank_transfer"
+      ],
+      "retrieved": [
+        "unauthorized_bank_transfer",
+        "unauthorized_bank_transfer",
+        "unauthorized_bank_transfer"
+      ],
+      "best_distance": 0.4381,
+      "result": "hit@1"
+    },
+    {
+      "question": "How can I make a collector stop contacting me?",
+      "expected": [
+        "debt_validation",
+        "debt_collector_conduct"
+      ],
+      "retrieved": [
+        "debt_validation",
+        "debt_validation",
+        "debt_collector_conduct"
+      ],
+      "best_distance": 0.3433,
+      "result": "hit@1"
+    },
+    {
+      "question": "How many years will a late payment hurt my credit?",
+      "expected": [
+        "negative_items_duration"
+      ],
+      "retrieved": [
+        "negative_items_duration",
+        "credit_report_dispute",
+        "card_billing_error_dispute"
+      ],
+      "best_distance": 0.4613,
+      "result": "hit@1"
+    },
+    {
+      "question": "A merchant never delivered what I paid for with my credit card",
+      "expected": [
+        "card_billing_error_dispute"
+      ],
+      "retrieved": [
+        "unauthorized_card_charge",
+        "card_billing_error_dispute",
+        "unauthorized_card_charge"
+      ],
+      "best_distance": 0.4342,
+      "result": "hit@3"
+    },
+    {
+      "question": "The bank closed my account and is holding my remaining balance",
+      "expected": [
+        "frozen_or_closed_account"
+      ],
+      "retrieved": [
+        "frozen_or_closed_account",
+        "frozen_or_closed_account",
+        "overdraft_and_fees"
+      ],
+      "best_distance": 0.3175,
+      "result": "hit@1"
+    },
+    {
+      "question": "The company that handles my home loan keeps losing my paperwork",
+      "expected": [
+        "mortgage_servicing_issues"
+      ],
+      "retrieved": [
+        "mortgage_servicing_issues",
+        "auto_loan_repossession",
+        "student_loan_servicing"
+      ],
+      "best_distance": 0.5725,
+      "result": "hit@1"
+    },
+    {
+      "question": "A scammer tricked me into sending money through an app",
+      "expected": [
+        "money_transfer_app_problems"
+      ],
+      "retrieved": [
+        "money_transfer_app_problems",
+        "money_transfer_app_problems",
+        "unauthorized_bank_transfer"
+      ],
+      "best_distance": 0.314,
+      "result": "hit@1"
+    },
+    {
+      "question": "What is the best credit card for travel rewards?",
+      "expected": null,
+      "retrieved": [
+        "unauthorized_card_charge",
+        "money_transfer_app_problems",
+        "free_credit_reports"
+      ],
+      "best_distance": 0.7709,
+      "result": "REFUSED "
+    },
+    {
+      "question": "How do I apply for a mortgage and what interest rate will I get?",
+      "expected": null,
+      "retrieved": [
+        "mortgage_servicing_issues",
+        "unauthorized_hard_inquiry",
+        "mortgage_servicing_issues"
+      ],
+      "best_distance": 0.6932,
+      "result": "REFUSED "
+    },
+    {
+      "question": "Can you help me file my income tax return?",
+      "expected": null,
+      "retrieved": [
+        "student_loan_servicing",
+        "student_loan_servicing",
+        "mortgage_servicing_issues"
+      ],
+      "best_distance": 0.7111,
+      "result": "REFUSED "
+    },
+    {
+      "question": "What is the current interest rate on savings accounts?",
+      "expected": null,
+      "retrieved": [
+        "overdraft_and_fees",
+        "frozen_or_closed_account",
+        "unauthorized_bank_transfer"
+      ],
+      "best_distance": 0.8142,
+      "result": "REFUSED "
+    }
+  ]
+}
